@@ -15,4 +15,7 @@ If the detection results is not satisfied, you can adjust some params to get a b
 
 > If you have any problem, please contact hevlhayt@foxmail.com (ﾉﾟ▽ﾟ)ﾉ
 
-
+## HOW to run ROS node
+```bash
+rosrun traffic_light_detector traffic_light_detector.py
+```
