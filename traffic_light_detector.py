@@ -1,4 +1,4 @@
-#!/usr/bin/env  python
+#!/usr/bin/env  python3
 
 import sys
 import cv2
@@ -82,11 +82,11 @@ def detect_callback(image):
 	upper_green = np.array([90,255,255])
 	lower_yellow = np.array([15,150,150])
 	upper_yellow = np.array([35,255,255])
-	mask1 = cv2.inRange(hsv, lower_red1, upper_red1)
-	mask2 = cv2.inRange(hsv, lower_red2, upper_red2)
+	maskr_1 = cv2.inRange(hsv, lower_red1, upper_red1)
+	maskr_2 = cv2.inRange(hsv, lower_red2, upper_red2)
+	maskr = cv2.add(maskr_1, maskr_2)
 	maskg = cv2.inRange(hsv, lower_green, upper_green)
 	masky = cv2.inRange(hsv, lower_yellow, upper_yellow)
-	maskr = cv2.add(mask1, mask2)
 
 	# kernel = np.ones((3, 3), np.uint8)
 	# maskg = cv2.erode(maskg, kernel, iterations=6)
