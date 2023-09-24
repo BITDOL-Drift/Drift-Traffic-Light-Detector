@@ -6,7 +6,7 @@ TLD performs well in the daylight with only about 100 lines code. See results [h
 Ideas from two opencv demos: [hough circle transform](http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_houghcircles/py_houghcircles.html#hough-circles) and [object tracking](http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_colorspaces/py_colorspaces.html).  
 If the detection results is not satisfied, you can adjust some params to get a better result.
 
-### UPDATED BY DRIFT_BITDOL ###
+## UPDATED BY DRIFT_BITDOL ###
 **FOR 2023 DAEGU AUTONOMOUS CAR ALGORITHM CONTEST**
 
 
